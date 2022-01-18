@@ -1,0 +1,6 @@
+---
+log-path: 'log.txt'
+log-date-format: '%Y-%m-%d %H:%M:%S'
+sleep-min: 2
+sleep-max: 3
+...
