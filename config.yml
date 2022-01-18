@@ -1,6 +1,6 @@
 ---
 log-path: 'log.txt'
 log-date-format: '%Y-%m-%d %H:%M:%S'
-sleep-min: 2
-sleep-max: 3
+sleep-min: 60
+sleep-max: 120
 ...

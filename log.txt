@@ -1,13 +1,362 @@
-Hello World
-Hello World
-Hello
-Hello
-Hello
-[2022-01-18 20:47:17] Hello
-[2022-01-18 20:47:19] Hello
-[2022-01-18 20:47:22] Hello
-[2022-01-18 20:47:24] Hello
-[2022-01-18 20:47:26] Hello
-[2022-01-18 20:47:28] Hello
-[2022-01-18 20:47:30] Hello
-[2022-01-18 20:47:33] Hello
+[2022-01-18 22:19:07] Successfully logged in and retreived csrf token and user id.
+[2022-01-18 22:20:02] Login successful. csrf_token: 617c94843dd454d9dbd94bbc899603d41cb63406, user_id: 3822656
+[2022-01-18 22:33:29] Login successful. csrf_token: dd2eb0b1895da9247b4d80cca5eb9ba2c20cdf0e, ad ids: [<div class="wgg_card my_asset_item mb30" id="my_asset_9001166">
+<div class="row">
+<div class="col-sm-3 card_image">
+<a class="" href="/9001166.html?ma=1" style=" background-image: url(https://img.wg-gesucht.de/media/up/2022/00/76afa5f8c4899347633bc22649df085a4accf141a2c3afbf04e03289dad0970a_IMG_20210219_145814.sized.jpg);"></a>
+</div>
+<div class="col-sm-9 card_body">
+<div class="row">
+<div class="col-xs-10">
+<h3 class="truncate_title">
+<a href="/9001166.html?ma=1" target="_blank">
+                                                            Berlin - Akademiker und Single mit Niveau (?) sucht WG-Zimmer in deiner Nähe
+                                                    </a>
+</h3>
+</div>
+<div class="dropdown my_assets_dropdown col-xs-2">
+<span class="mdi mdi-dots-vertical mdi-20px pull-right cursor-pointer" data-asset_id="9001166" data-toggle="dropdown"></span>
+<ul class="dropdown-menu dropdown-menu-right asset_actions_dropdown" role="menu">
+<li>
+<a href="/gesuch-bearbeiten.html?action=update_request&amp;request_id=9001166" onclick="ga('send', 'event', 'my_ads_btn', 'edit ad', 'my_ads_requests');">
+                                    Bearbeiten + Fotos
+                                </a>
+<hr/>
+</li>
+<li>
+<a href="/pdf-aushang.html?id=9001166&amp;ad_type=1" onclick="ga('send', 'event', 'my_ads_btn', 'show poster', 'my_ads_requests');" target="_blank">
+                                PDF-Aushang
+                            </a>
+<hr/>
+</li>
+<li>
+<a class="update_deactivated_status cursor-pointer" data-asset_id="9001166" data-asset_type="1" data-csrf_token="dd2eb0b1895da9247b4d80cca5eb9ba2c20cdf0e" data-deactivated="1" onclick="ga('send', 'event', 'my_ads_btn', 'deactivate ad', 'my_ads_requests');">
+                                                                    Deaktivieren
+                                                            </a>
+<hr/>
+</li>
+<li>
+<a href="/eintrag-loeschen.html?id=9001166&amp;refPage=meinwg&amp;typ=1" onclick="ga('send', 'event', 'my_ads_btn', 'delete ad', 'my_ads_requests');">
+                                Löschen
+                            </a>
+</li>
+<hr/>
+<li>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.wg-gesucht.de%2Fwg-zimmer-in-Berlin-gesucht.9001166.html">
+                                Teilen
+                            </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="row mb30">
+<div class="col-xs-12">
+                    Anzeigennummer: <b>9001166</b> Zuletzt aktualisiert: <b>18.01.2022</b>, (Erstellt: <b>28.10.2021</b>)
+                </div>
+</div>
+<div class="row">
+<div class="col-sm-8">
+                    Anfragen in 30 Tagen: <b>1</b> |  Besucher in 30 Tagen: <b>94</b>
+</div>
+<div class="col-sm-4">
+<div class="pull-right">
+<b>Qualitätscheck</b>
+<span class="quality_check_badge badge ml5 cursor-pointer wgg_green" data-asset_id="9001166" onclick="ga('send', 'event', 'my_ads_btn', 'show qc', 'my_ads_requests');">
+                            75%
+                        </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="quality_check_wrapper display-none" id="quality_check_9001166">
+<div class="row mb5">
+<div class="col-xs-9 col-xs-offset-3 separator"></div>
+</div>
+<div class="row mt10 mb10">
+<div class="col-xs-12">
+<b>
+                Aktueller Status der Anzeige
+                75%
+            </b>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-3">
+<b>Angaben zum Objekt:</b>
+<ul>
+<li>
+<span aria-hidden="true" class="mdi mdi-20px mdi-vm mdi-check-circle-outline mdi-success"></span>
+                        Stadtteil
+                    </li>
+<li>
+<span aria-hidden="true" class="mdi mdi-20px mdi-vm mdi-check-circle-outline mdi-success"></span>
+                        Max. Miete
+                    </li>
+<li>
+<span aria-hidden="true" class="mdi mdi-20px mdi-vm mdi-check-circle-outline mdi-success"></span>
+                        Min. Größe
+                    </li>
+<li>
+<span aria-hidden="true" class="mdi mdi-20px mdi-vm mdi-close-circle-outline mdi-error"></span>
+<a class="a-quality-check" href="/gesuch-bearbeiten.html?action=update_request&amp;request_id=9001166&amp;form_id=property_details" onclick="ga('send', 'event', 'qc_request_myads', 'edit wg types', 'quality check');">
+                                WG-Informationen
+                            </a>
+</li>
+<li>
+<span aria-hidden="true" class="mdi mdi-20px mdi-vm mdi-check-circle-outline mdi-success"></span>
+                        Angaben zum Haus
+                    </li>
+</ul>
+</div>
+<div class="col-sm-3">
+<b>Persönliche Details:</b>
+<ul>
+<li>
+<span aria-hidden="true" class="mdi mdi-20px mdi-vm mdi-check-circle-outline mdi-success"></span>
+                        Über mich
+                    </li>
+</ul>
+</div>
+<div class="col-sm-3">
+<b>Fotos:</b>
+<ul>
+<li>
+<span aria-hidden="true" class="mdi mdi-20px mdi-vm mdi-check-circle-outline mdi-success"></span>
+                        Fotos hochgeladen
+                    </li>
+<li>
+<span aria-hidden="true" class="mdi mdi-20px mdi-vm mdi-close-circle-outline mdi-error"></span>
+<a class="a-quality-check" href="/gesuch-bearbeiten.html?request_id=9001166&amp;action=update_request&amp;form_id=photos">
+                            Bildunterschrift
+                        </a>
+</li>
+</ul>
+</div>
+<div class="col-sm-3">
+<b>Weitere Tipps:</b>
+<ul>
+<li>
+<a href="/pdf-aushang.html?id=9001166&amp;ad_type=1" onclick="ga('send', 'event', 'qc_request_myads', 'show pdf poster', 'quality check');" target="_blank">
+                        Aushang ausdrucken
+                    </a>
+</li>
+<li>
+                        Auf
+                        <a class="facebook_link" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.wg-gesucht.de%2Fwg-zimmer-in-Berlin-gesucht.9001166.html" rel="nofollow" target="_blank">
+                            Facebook
+                        </a>
+                        telen
+                    </li>
+</ul>
+</div>
+</div>
+</div>
+</div>, <div class="wgg_card my_asset_item mb30" id="my_asset_9003277">
+<div class="row">
+<div class="col-sm-3 card_image">
+<a class="" href="/9003277.html?ma=1" style=" background-image: url(https://img.wg-gesucht.de/media/up/2021/43/857a3d1688a9d6e3bd6bb7f1a247d2541057c91badebfd573589ab79eecc56ef_IMG_20210219_145814.sized.jpg);"></a>
+</div>
+<div class="col-sm-9 card_body">
+<div class="row">
+<div class="col-xs-10">
+<h3 class="truncate_title">
+<a href="/9003277.html?ma=1" target="_blank">
+                                                            Hamburg - Akademiker und Single mit Niveau (?) sucht WG-Zimmer in deiner Nähe
+                                                    </a>
+</h3>
+</div>
+<div class="dropdown my_assets_dropdown col-xs-2">
+<span class="mdi mdi-dots-vertical mdi-20px pull-right cursor-pointer" data-asset_id="9003277" data-toggle="dropdown"></span>
+<ul class="dropdown-menu dropdown-menu-right asset_actions_dropdown" role="menu">
+<li>
+<a href="/gesuch-bearbeiten.html?action=update_request&amp;request_id=9003277" onclick="ga('send', 'event', 'my_ads_btn', 'edit ad', 'my_ads_requests');">
+                                    Bearbeiten + Fotos
+                                </a>
+<hr/>
+</li>
+<li>
+<a href="/pdf-aushang.html?id=9003277&amp;ad_type=1" onclick="ga('send', 'event', 'my_ads_btn', 'show poster', 'my_ads_requests');" target="_blank">
+                                PDF-Aushang
+                            </a>
+<hr/>
+</li>
+<li>
+<a class="update_deactivated_status cursor-pointer" data-asset_id="9003277" data-asset_type="1" data-csrf_token="dd2eb0b1895da9247b4d80cca5eb9ba2c20cdf0e" data-deactivated="1" onclick="ga('send', 'event', 'my_ads_btn', 'deactivate ad', 'my_ads_requests');">
+                                                                    Deaktivieren
+                                                            </a>
+<hr/>
+</li>
+<li>
+<a href="/eintrag-loeschen.html?id=9003277&amp;refPage=meinwg&amp;typ=1" onclick="ga('send', 'event', 'my_ads_btn', 'delete ad', 'my_ads_requests');">
+                                Löschen
+                            </a>
+</li>
+<hr/>
+<li>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.wg-gesucht.de%2Fwg-zimmer-in-Hamburg-gesucht.9003277.html">
+                                Teilen
+                            </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="row mb30">
+<div class="col-xs-12">
+                    Anzeigennummer: <b>9003277</b> Zuletzt aktualisiert: <b>17.01.2022</b>, (Erstellt: <b>30.10.2021</b>)
+                </div>
+</div>
+<div class="row">
+<div class="col-sm-8">
+                    Anfragen in 30 Tagen: <b>7</b> |  Besucher in 30 Tagen: <b>171</b>
+</div>
+<div class="col-sm-4">
+<div class="pull-right">
+<b>Qualitätscheck</b>
+<span class="quality_check_badge badge ml5 cursor-pointer wgg_orange" data-asset_id="9003277" onclick="ga('send', 'event', 'my_ads_btn', 'show qc', 'my_ads_requests');">
+                            62%
+                        </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="quality_check_wrapper display-none" id="quality_check_9003277">
+<div class="row mb5">
+<div class="col-xs-9 col-xs-offset-3 separator"></div>
+</div>
+<div class="row mt10 mb10">
+<div class="col-xs-12">
+<b>
+                Aktueller Status der Anzeige
+                62%
+            </b>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-3">
+<b>Angaben zum Objekt:</b>
+<ul>
+<li>
+<span aria-hidden="true" class="mdi mdi-20px mdi-vm mdi-close-circle-outline mdi-error"></span>
+<a class="a-quality-check" href="/gesuch-bearbeiten.html?action=update_request&amp;request_id=9003277&amp;form_id=location" onclick="ga('send', 'event', 'qc_request_myads', 'edit disctrict', 'quality check');">
+                            Stadtteil
+                        </a>
+</li>
+<li>
+<span aria-hidden="true" class="mdi mdi-20px mdi-vm mdi-check-circle-outline mdi-success"></span>
+                        Max. Miete
+                    </li>
+<li>
+<span aria-hidden="true" class="mdi mdi-20px mdi-vm mdi-check-circle-outline mdi-success"></span>
+                        Min. Größe
+                    </li>
+<li>
+<span aria-hidden="true" class="mdi mdi-20px mdi-vm mdi-check-circle-outline mdi-success"></span>
+                            WG-Informationen
+                        </li>
+<li>
+<span aria-hidden="true" class="mdi mdi-20px mdi-vm mdi-close-circle-outline mdi-error"></span>
+<a class="a-quality-check" href="/gesuch-bearbeiten.html?action=update_request&amp;request_id=9003277&amp;form_id=property_details" onclick="ga('send', 'event', 'qc_request_myads', 'edit property details', 'quality check');">
+                            Angaben zum Haus
+                        </a>
+</li>
+</ul>
+</div>
+<div class="col-sm-3">
+<b>Persönliche Details:</b>
+<ul>
+<li>
+<span aria-hidden="true" class="mdi mdi-20px mdi-vm mdi-check-circle-outline mdi-success"></span>
+                        Über mich
+                    </li>
+</ul>
+</div>
+<div class="col-sm-3">
+<b>Fotos:</b>
+<ul>
+<li>
+<span aria-hidden="true" class="mdi mdi-20px mdi-vm mdi-check-circle-outline mdi-success"></span>
+                        Fotos hochgeladen
+                    </li>
+<li>
+<span aria-hidden="true" class="mdi mdi-20px mdi-vm mdi-close-circle-outline mdi-error"></span>
+<a class="a-quality-check" href="/gesuch-bearbeiten.html?request_id=9003277&amp;action=update_request&amp;form_id=photos">
+                            Bildunterschrift
+                        </a>
+</li>
+</ul>
+</div>
+<div class="col-sm-3">
+<b>Weitere Tipps:</b>
+<ul>
+<li>
+<a href="/pdf-aushang.html?id=9003277&amp;ad_type=1" onclick="ga('send', 'event', 'qc_request_myads', 'show pdf poster', 'quality check');" target="_blank">
+                        Aushang ausdrucken
+                    </a>
+</li>
+<li>
+                        Auf
+                        <a class="facebook_link" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.wg-gesucht.de%2Fwg-zimmer-in-Hamburg-gesucht.9003277.html" rel="nofollow" target="_blank">
+                            Facebook
+                        </a>
+                        telen
+                    </li>
+</ul>
+</div>
+</div>
+</div>
+</div>]
+[2022-01-18 22:34:12] Login successful. csrf_token: 2cf35f3b0b5837875490df84b17672e045d938bc, ad ids: ['9001166', '9003277']
+[2022-01-18 22:35:36] Login successful. csrf_token: 1bc61dfc14d954664691ef7351e8598ef0bfcf02, ad ids: ['9001166', '9003277']
+[2022-01-18 22:37:04] Login successful. csrf_token: 6a6e8f23b6a5d69d365d14d5e411a41bdabe2eee, ad ids: ['9001166', '9003277']
+[2022-01-18 22:40:54] Login successful. csrf_token: 40e6d85591fb0bfa3bb04f8df2b29156b24140c4, ad ids: ['9001166', '9003277']
+[2022-01-18 22:42:18] Login successful. csrf_token: cd24eb31871fa1075f07cf8513cf6441203cc605, ad ids: ['9001166', '9003277']
+[2022-01-18 22:42:51] Login successful. csrf_token: e91b9388ca484a67bf8a600a7feb14a8c0340b21, ad ids: ['9001166', '9003277']
+[2022-01-18 22:43:39] Error logging in: 504
+[2022-01-18 22:45:16] Login successful. csrf_token: 7f7849b026881d990cb859cdd73bd97ff38ddb8a, ad ids: ['9003277']
+[2022-01-18 22:46:47] Login successful. csrf_token: c6246bced879f9c9fccd7a13d833dc015c3fe2d0, ad ids: ['9003277']
+[2022-01-18 22:50:28] Login successful. csrf_token: a559856cf265e978474e22f419178eeb813698f3, ad ids: ['9001166', '9003277']
+[2022-01-18 22:56:28] Login successful. csrf_token: 17392c99642b57eb62262a2941f10c52a910a6d3, ad ids: ['9001166', '9003277']
+[2022-01-18 22:57:15] Login successful. csrf_token: 58fe81eba5085d484543896b8ef8339e51fde1f4, ad ids: ['9001166', '9003277']
+[2022-01-18 22:59:21] Login successful. csrf_token: 40709632eab45e8e34a0c0d3e4dfdbc6bd9170ea, ad ids: ['9001166', '9003277']
+[2022-01-18 23:04:22] Error logging in: 503
+[2022-01-18 23:04:29] Login successful. csrf_token: 6cdb2d4454bfd5bda320c03af5dd68172250a1d9, ad ids: ['9001166', '9003277']
+[2022-01-18 23:05:51] Login successful. csrf_token: 8bdd3ed3e3199045a60e165eca0f9f040ed9c9a8, ad ids: ['9001166', '9003277']
+[2022-01-18 23:10:25] Login successful. csrf_token: 51da0f02cd6c760f76d14b94a8675dff50a22848, ad ids: ['9003277', '9001166']
+[2022-01-18 23:12:22] Login successful. csrf_token: 15c299074a9f76d29a57a46da0236c73a4a2a2a6, ad ids: ['9003277', '9001166']
+[2022-01-18 23:13:09] Login successful. csrf_token: dd85478dab92f2ab5adcbb777d3b1a6651ae610b, ad ids: ['9003277', '9001166']
+[2022-01-18 23:29:56] Login successful. csrf_token: 1c77f3c7d3ca57c69bdc2701a5e353afc2c61d2d, ad ids: ['9003277', '9001166']
+[2022-01-18 23:35:23] Login successful. csrf_token: 8124c0bb8bd664ba10946e33fa747fde923c8915, ad ids: ['9001166', '9003277']
+[2022-01-18 23:38:13] Login successful. csrf_token: d280d2b95d68f740bf549cb8598d8dcad9e4f16c, ad ids: ['9001166', '9003277']
+[2022-01-18 23:38:32] Login successful. csrf_token: df2044f7259cc4767f2a30a7120cc40a31f2f358, ad ids: ['9001166', '9003277']
+[2022-01-18 23:39:32] Login successful. csrf_token: 95d263b89fc0f4c353d4cfff52179433aaeacfd9, ad ids: ['9001166', '9003277']
+[2022-01-18 23:40:08] Login successful. csrf_token: 25719a42d9f68fe077140df26606cdf69ad32be7, ad ids: ['9001166', '9003277']
+[2022-01-18 23:40:39] Login successful. csrf_token: 2ed6f5960c933bb33ed4c5a4bc5f4a2b822aea22, ad ids: ['9003277', '9001166']
+[2022-01-18 23:42:40] Login successful. csrf_token: 428aa3dc84b9b27d15fe389d72a20df0e9a7fdba, ad ids: ['9003277', '9001166']
+[2022-01-18 23:42:40] Updated ad #9003277: 200
+[2022-01-18 23:42:41] Updated ad #9001166: 200
+[2022-01-18 23:44:24] Login successful. csrf_token: 8b65ca3d98e8efc0b4ea68cc00f29bc1c7a463e4, ad ids: ['9001166', '9003277']
+[2022-01-18 23:44:25] Updated ad #9001166: 200
+[2022-01-18 23:44:26] Updated ad #9003277: 200
+[2022-01-18 23:44:26] Sleeping for 111 seconds.
+[2022-01-18 23:46:18] Login successful. csrf_token: a8b7743a4c79c9b9e8ea7d2a026349488841baff, ad ids: ['9003277', '9001166']
+[2022-01-18 23:46:19] Updated ad #9003277: 200
+[2022-01-18 23:46:19] Updated ad #9001166: 200
+[2022-01-18 23:46:19] Sleeping for 83 seconds.
+[2022-01-18 23:47:43] Login successful. csrf_token: 758fddeb28a330a3474074be4b1673124eafd321, ad ids: ['9003277', '9001166']
+[2022-01-18 23:47:44] Updated ad #9003277: 200
+[2022-01-18 23:47:44] Updated ad #9001166: 200
+[2022-01-18 23:47:44] Sleeping for 108 seconds.
+[2022-01-19 00:08:35] Login successful. csrf_token: 48640897fa1c9b036fabf8ecf59bc499989c9be8, ad ids: ['9003277', '9001166']
+[2022-01-19 00:08:36] Updated ad #9003277: 200
+[2022-01-19 00:08:36] Updated ad #9001166: 200
+[2022-01-19 00:08:36] Sleeping for 100 seconds.
+[2022-01-19 00:14:02] Login successful. csrf_token: c9702824a08a0adb5c883d8da23a7939771b638e, ad ids: ['9003277', '9001166']
+[2022-01-19 00:14:03] Updated ad #9003277: 200
+[2022-01-19 00:14:04] Updated ad #9001166: 200
+[2022-01-19 00:14:04] Sleeping for 106 seconds.
+[2022-01-19 00:14:50] Login successful. csrf_token: cdf29fe32bd5ee949fb632a681460065cceaa2ad, ad ids: ['9001166', '9003277']
+[2022-01-19 00:14:51] Updated ad #9001166: 200
+[2022-01-19 00:14:51] Updated ad #9003277: 200
+[2022-01-19 00:14:51] Sleeping for 98 seconds.
