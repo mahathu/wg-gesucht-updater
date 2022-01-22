@@ -68,7 +68,7 @@ if __name__ == '__main__':
         with WGSession(secrets['email'], secrets['password']) as session:
             for ad in session.ad_ids:
                 session.toggle_activation(ad)
-                
+
         sleep_len = randint(config['sleep-min'], config['sleep-max'])
         log(f"Sleeping for {sleep_len} seconds.")
         sleep(sleep_len)
