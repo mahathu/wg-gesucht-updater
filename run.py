@@ -52,10 +52,11 @@ class WGSession(requests.Session):
             "X-Dev-Ref-No": self.cookies.get("X-Dev-Ref-No")
         }
 
-        data = {"deactivated": "1", "csrf_token": self.csrf_token}
-        r = self.patch(api_url, json=data, headers=headers)
-        data["deactivated"] = "0"
-        r = self.patch(api_url, json=data, headers=headers)
+        self.patch(api_url, 
+            json={"deactivated": "1", "csrf_token": self.csrf_token}, headers=headers)
+        r = self.patch(api_url, 
+            json={"deactivated": "0", "csrf_token": self.csrf_token}, headers=headers)
+       
         log(f"Updated ad #{ad_id}: {r.status_code}")
 
 if __name__ == '__main__':
