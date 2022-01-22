@@ -29,7 +29,8 @@ class WGSession(requests.Session):
         if login_response.status_code != 200:
             msg = f"Error logging in: {login_response.status_code}"
             log(msg)
-            raise ValueError(msg)
+            self.ad_ids = []
+            return
 
         response = self.get("https://www.wg-gesucht.de/meine-anzeigen.html")
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -70,6 +71,6 @@ if __name__ == '__main__':
             for ad in session.ad_ids:
                 session.toggle_activation(ad)
 
-        sleep_len = randint(config['sleep-min'], config['sleep-max'])
-        log(f"Sleeping for {sleep_len} seconds.")
+        sleep_len = randint(config['sleep-min'], config['sleep-max']) * 60
+        log(f"Sleeping for {sleep_len//60} minutes.")
         sleep(sleep_len)
