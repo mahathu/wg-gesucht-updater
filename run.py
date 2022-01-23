@@ -1,9 +1,9 @@
-import yaml
-import requests
-from bs4 import BeautifulSoup
 from datetime import datetime
 from random import randint # could also use randrange
 from time import sleep
+import yaml
+import requests
+from bs4 import BeautifulSoup
 
 def log(message):
     date_string = datetime.now().strftime(config['log-date-format'])
