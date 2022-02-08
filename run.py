@@ -35,15 +35,20 @@ class WGSession(requests.Session):
         response = self.get("https://www.wg-gesucht.de/meine-anzeigen.html")
         soup = BeautifulSoup(response.text, 'html.parser')
 
-        logout_btn = soup.find('a', class_='logout_button')
-        ads = soup.find(id='my_requests').find_all('div', class_='wgg_card') # select only active ads
+        try:
+            logout_btn = soup.find('a', class_='logout_button')
+            ads = soup.find(id='my_requests').find_all('div', class_='wgg_card') # select only active ads
+            
+            self.ad_ids = [ad.attrs['id'].split('_')[-1] for ad in ads]
+            self.csrf_token = logout_btn.attrs['data-csrf_token']
+            self.user_id = logout_btn.attrs["data-user_id"]
+
+            log(f'Login successful. csrf_token: {self.csrf_token}, ad ids: {self.ad_ids}')
         
-        self.ad_ids = [ad.attrs['id'].split('_')[-1] for ad in ads]
-        self.csrf_token = logout_btn.attrs['data-csrf_token']
-        self.user_id = logout_btn.attrs["data-user_id"]
-
-        log(f'Login successful. csrf_token: {self.csrf_token}, ad ids: {self.ad_ids}')
-
+        except Exception as e: #So far I've only seen AttributeErrors
+            log(f"Error parsing website HTML: {e}")
+            self.ad_ids = []
+        
     def toggle_activation(self, ad_id):
         api_url = f"https://www.wg-gesucht.de/api/requests/{ad_id}/users/{self.user_id}"
         headers = {
